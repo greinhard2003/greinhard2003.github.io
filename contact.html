@@ -19,7 +19,12 @@
         </nav>
         <main>
             <h1 class = "logo">Contact</h1>
-            Hi, this is how you can contact me.
+            <form id = "contact-form">
+                <strong>Name: </strong> <input type="text" id="name" name="name" placeholder="Name" required>
+                <strong>Email: </strong> <input type="email" id="email" name="email" placeholder="Email" required>
+                <strong>Message: </strong><textarea id="message" name="message" placeholder="Message" required></textarea>
+                <input type="submit" id="submit button" value="Submit">
+            </form>
         </main>
         <footer class = "footer">© 2023 Garrett's Personal Webpage | All Rights Reserved</footer>
     </body>
