@@ -106,5 +106,11 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+  }
+  .contact-picture{
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
   }
